@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fundraisers | CARES</title>
+<meta name="description" content="Fundraisers hosted by CARES to fund art for healthcare communities.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&display=swap" rel="stylesheet">
+<link rel="icon" href="images/logo.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="logo" href="index.html"><img src="images/logo.png" alt="CARES home"></a>
+    <button class="menu-btn" aria-expanded="false" aria-controls="menu">Menu</button>
+    <nav aria-label="Main">
+      <ul id="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="our-team.html">Our Team</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="fundraisers.html" aria-current="page">Fundraisers</a></li>
+        <li><a href="our-designs.html">Our Designs</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<div class="bar"></div>
+
+<main id="main">
+  <div class="wrap page-head">
+    <h1>Fundraisers</h1>
+    <p>Our fundraisers keep CARES running, and each one helps us bring more art to healthcare communities.</p>
+  </div>
+  <section class="fund" aria-labelledby="f-july">
+    <div class="wrap">
+      <h2 id="f-july">South Indian Food Sale</h2>
+      <p class="when">July 2025</p>
+      <p class="blurb">Our team cooked up a fundraiser by selling South Indian food that we made ourselves, from prepping the vegetables to packaging and labeling each order. We raised over <strong>$800</strong>, and all of it goes straight into our operations!</p>
+      <div class="gallery g4">
+          <img src="images/fundraisers/july-2025-1.jpg" alt="Red potatoes, carrots, and green bell peppers on a cutting board" loading="lazy">
+          <img src="images/fundraisers/july-2025-2.jpg" alt="A CARES member chopping green bell peppers in a kitchen" loading="lazy">
+          <img src="images/fundraisers/july-2025-3.jpg" alt="Carrots being sliced into sticks on a cutting board" loading="lazy">
+          <img src="images/fundraisers/july-2025-4.jpg" alt="A hand writing a name on a food container with a marker" loading="lazy">
+      </div>
+    </div>
+  </section>
+  <section class="fund" aria-labelledby="f-oct">
+    <div class="wrap">
+      <h2 id="f-oct">Halloween Art Workshop</h2>
+      <p class="when">October 2024</p>
+      <p class="blurb">Our team holds interactive workshops where we teach elementary and middle school students new art styles and techniques while working on a festive art piece. In our October workshop, we taught several students how to use different pencil shading and blending techniques while drawing a Halloween-themed sketch. The donations collected from these workshops go towards funding supplies that we use to create our paintings for healthcare facilities. We raised over <strong>$150</strong>!</p>
+      <div class="gallery g5">
+          <img src="images/fundraisers/oct-2024-1.jpg" alt="Students and CARES members drawing together at a table on a sunny patio" loading="lazy">
+          <img src="images/fundraisers/oct-2024-2.jpg" alt="A wide view of the patio workshop with students drawing at several tables" loading="lazy">
+          <img src="images/fundraisers/oct-2024-3.jpg" alt="A pencil drawing of Halloween pumpkins displayed on a small easel" loading="lazy" style="object-position:center 35%">
+          <img src="images/fundraisers/oct-2024-4.jpg" alt="A CARES member showing the sample drawing to students seated at tables" loading="lazy">
+          <img src="images/fundraisers/oct-2024-5.jpg" alt="Students holding up their finished pencil sketches of pumpkins" loading="lazy">
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap"><img src="images/logo.png" alt=""><p>&copy; 2026 CARES</p></div>
+</footer>
+
+<script>
+var mb=document.querySelector('.menu-btn'),menu=document.getElementById('menu');
+mb.addEventListener('click',function(){var o=menu.classList.toggle('open');mb.setAttribute('aria-expanded',o)});
+</script>
+</body>
+</html>

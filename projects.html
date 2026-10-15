@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Our Projects | CARES</title>
+<meta name="description" content="Workshops, painting donations, and special projects from CARES, a non-profit art organization in Fremont, CA.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&display=swap" rel="stylesheet">
+<link rel="icon" href="images/logo.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="logo" href="index.html"><img src="images/logo.png" alt="CARES home"></a>
+    <button class="menu-btn" aria-expanded="false" aria-controls="menu">Menu</button>
+    <nav aria-label="Main">
+      <ul id="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="our-team.html">Our Team</a></li>
+        <li><a href="projects.html" aria-current="page">Projects</a></li>
+        <li><a href="fundraisers.html">Fundraisers</a></li>
+        <li><a href="our-designs.html">Our Designs</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<div class="bar"></div>
+
+<main id="main">
+  <div class="wrap page-head">
+    <h1>Our Projects</h1>
+    <p>A look back at some of our workshops, paintings, and events.</p>
+  </div>
+  <section class="wrap">
+    <div class="cat-grid">
+      <a class="card big" href="projects-senior-workshops.html">
+        <span class="ph"><img src="images/projects/age-well-aug-2026/cover.jpg" alt=""></span>
+        <span class="cname">Senior Center Workshops</span>
+        <span class="when">Step-by-step painting at senior centers and care communities.</span>
+      </a>
+      <a class="card big" href="projects-neurodivergent-workshops.html">
+        <span class="ph"><img src="images/projects/_covers/neurodivergent.jpg" alt=""></span>
+        <span class="cname">Neurodivergent Community Workshops</span>
+        <span class="when">Inclusive art workshops with the neurodivergent community.</span>
+      </a>
+      <a class="card big" href="projects-painting-donations.html">
+        <span class="ph"><img src="images/projects/_covers/donation.jpg" alt=""></span>
+        <span class="cname">Painting Donations</span>
+        <span class="when">Original paintings made by our officers for healthcare facilities.</span>
+      </a>
+      <a class="card big" href="projects-special-projects.html">
+        <span class="ph"><img src="images/projects/_covers/special.jpg" alt=""></span>
+        <span class="cname">Special Projects</span>
+        <span class="when">Fundraisers, service projects, and community events.</span>
+      </a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap"><img src="images/logo.png" alt=""><p>&copy; 2026 CARES</p></div>
+</footer>
+
+<script>
+var mb=document.querySelector('.menu-btn'),menu=document.getElementById('menu');
+mb.addEventListener('click',function(){var o=menu.classList.toggle('open');mb.setAttribute('aria-expanded',o)});
+</script>
+</body>
+</html>
